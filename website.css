@@ -1,5 +1,11 @@
-
 h1 {
     font-family: "Bricolage Grotesque", sans-serif
-
+    font-size: 140px;
+	font-weight: 700;
+	color: white;
+	margin: 30px;
+	margin-bottom: 0px;
+	padding: 50px;
+	text-align: center;
+	padding-bottom: 0px;
 }
