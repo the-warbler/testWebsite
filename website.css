@@ -1,9 +1,18 @@
-h1 {
-    font-family: "Bricolage Grotesque", sans-serif
-    font-size: 140 px;
-	font-weight: 700;
-	margin: 30 px;
-	padding: 50 px;
-	text-align: center;
+h1, h2, h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    margin: 30px;
 }
 
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
