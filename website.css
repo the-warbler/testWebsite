@@ -1,18 +1,74 @@
-h1, h2, h3 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    margin: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 h1 {
     font-size: 100px;
     font-weight: 700;
-    margin: 30px;
-    padding: 50px;
     text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 50%;
+    height: auto;
 }
 
 p {
-    font-family:sans-serif;
     font-size: 20px;
-    margin-left: 30px;
+    padding: 0px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 14px;
+    margin: 6px;
+    background: rgb(237, 253, 253);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px grey;
+    color: black;
+}
+
+ul {
+    text-align: left;
+}
+
+.button:hover {
+    opacity: 80%;
+}
+
+@media (max-width: 700px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+
+
+.columns {
+    display: flex;
+    gap: 30px;
+}
+
+.columns div {
+    flex: 1;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
